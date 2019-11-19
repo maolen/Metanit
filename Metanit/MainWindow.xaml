@@ -1,0 +1,218 @@
+﻿<Window x:Class="Metanit.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Metanit"
+        mc:Ignorable="d" ResizeMode="CanResize"
+        Title="Metanit" Height="450" Width="1050" Background="#FFE5E5E5">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="121*"/>
+            <ColumnDefinition Width="197*"/>
+            <ColumnDefinition Width="237*"/>
+            <ColumnDefinition Width="334*"/>
+            <ColumnDefinition Width="161*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="17*"/>
+            <RowDefinition Height="26*"/>
+            <RowDefinition Height="27*"/>
+            <RowDefinition Height="31*"/>
+            <RowDefinition Height="257*"/>
+            <RowDefinition Height="51*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Name="titleTextBlock" Text="METANIT.COM" Grid.Row="0" Grid.Column="1" FontSize="18" FontWeight="Bold" TextAlignment="Left" Grid.RowSpan="2" Margin="0,0,1,0">
+            <TextBlock.TextDecorations>
+                <TextDecoration/>
+            </TextBlock.TextDecorations></TextBlock>
+        <TextBlock Name="headerTextBlock" Text="Сайт о программировании" Grid.Column="1" Grid.RowSpan="3" Margin="0,25,0,0"/>
+        <StackPanel x:Name="topStackPanel" Orientation="Horizontal" Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Margin="1,17,0,0" Grid.RowSpan="2" Width="804" Grid.Column="1">
+
+            <Button Name="CsharpButton" Content="C#/.NET" Width="73">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="White" Offset="0.996"/>
+                        <GradientStop Color="#FFC7C7C7" Offset="0.509"/>
+                        <GradientStop Color="#FFD1D1D1" Offset="0.607"/>
+                        <GradientStop Color="#FFCBCBCB" Offset="0.556"/>
+                        <GradientStop Color="LightGray" Offset="0.645"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button Name="JavaButton" Content="JAVA" Width="73">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="White" Offset="0.996"/>
+                        <GradientStop Color="#FFC7C7C7" Offset="0.509"/>
+                        <GradientStop Color="#FFD1D1D1" Offset="0.607"/>
+                        <GradientStop Color="#FFCBCBCB" Offset="0.556"/>
+                        <GradientStop Color="LightGray" Offset="0.645"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button Name="PythonButton" Content="PYTHON" Width="73">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="White" Offset="0.996"/>
+                        <GradientStop Color="#FFC7C7C7" Offset="0.509"/>
+                        <GradientStop Color="#FFD1D1D1" Offset="0.607"/>
+                        <GradientStop Color="#FFCBCBCB" Offset="0.556"/>
+                        <GradientStop Color="LightGray" Offset="0.645"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button Name="CppButton" Content="C/C++" Width="73">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="White" Offset="0.996"/>
+                        <GradientStop Color="#FFC7C7C7" Offset="0.509"/>
+                        <GradientStop Color="#FFD1D1D1" Offset="0.607"/>
+                        <GradientStop Color="#FFCBCBCB" Offset="0.556"/>
+                        <GradientStop Color="LightGray" Offset="0.645"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button Name="SqlButton" Content="SQL" Width="73">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="White" Offset="0.996"/>
+                        <GradientStop Color="#FFC7C7C7" Offset="0.509"/>
+                        <GradientStop Color="#FFD1D1D1" Offset="0.607"/>
+                        <GradientStop Color="#FFCBCBCB" Offset="0.556"/>
+                        <GradientStop Color="LightGray" Offset="0.645"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button Name="MongodbButton" Content="MONGODB" Width="73">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="White" Offset="0.996"/>
+                        <GradientStop Color="#FFC7C7C7" Offset="0.509"/>
+                        <GradientStop Color="#FFD1D1D1" Offset="0.607"/>
+                        <GradientStop Color="#FFCBCBCB" Offset="0.556"/>
+                        <GradientStop Color="LightGray" Offset="0.645"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button Name="GoButton" Content="GO" Width="73">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="White" Offset="0.996"/>
+                        <GradientStop Color="#FFC7C7C7" Offset="0.509"/>
+                        <GradientStop Color="#FFD1D1D1" Offset="0.607"/>
+                        <GradientStop Color="#FFCBCBCB" Offset="0.556"/>
+                        <GradientStop Color="LightGray" Offset="0.645"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button Name="VbnetButton" Content="VB.NET" Width="73">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="White" Offset="0.996"/>
+                        <GradientStop Color="#FFC7C7C7" Offset="0.509"/>
+                        <GradientStop Color="#FFD1D1D1" Offset="0.607"/>
+                        <GradientStop Color="#FFCBCBCB" Offset="0.556"/>
+                        <GradientStop Color="LightGray" Offset="0.645"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button Name="SwiftButton" Content="SWIFT" Width="73">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="White" Offset="0.996"/>
+                        <GradientStop Color="#FFC7C7C7" Offset="0.509"/>
+                        <GradientStop Color="#FFD1D1D1" Offset="0.607"/>
+                        <GradientStop Color="#FFCBCBCB" Offset="0.556"/>
+                        <GradientStop Color="LightGray" Offset="0.645"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button Name="KotlinButton" Content="KOTLIN" Width="73">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="White" Offset="0.996"/>
+                        <GradientStop Color="#FFC7C7C7" Offset="0.509"/>
+                        <GradientStop Color="#FFD1D1D1" Offset="0.607"/>
+                        <GradientStop Color="#FFCBCBCB" Offset="0.556"/>
+                        <GradientStop Color="LightGray" Offset="0.645"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button Name="DartButton" Content="DART" Width="73">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="White" Offset="0.996"/>
+                        <GradientStop Color="#FFC7C7C7" Offset="0.509"/>
+                        <GradientStop Color="#FFD1D1D1" Offset="0.607"/>
+                        <GradientStop Color="#FFCBCBCB" Offset="0.556"/>
+                        <GradientStop Color="LightGray" Offset="0.645"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+        </StackPanel>
+        <StackPanel Orientation="Vertical" Name="leftStackPanel" Grid.Row="3" Grid.Column="0" Background="#FFF0F0F0" Margin="0,2,0,0" Grid.RowSpan="3">
+            <Button Height="30" Background="#FFF0F0F0" Name="CsharpButtonLeft" Content="C#/.NET"/>
+            <Button Height="30" Background="#FFF0F0F0" Name="WebButtonLeft" Content="Web"/>
+            <Button Height="30" Background="#FFF0F0F0"  Content="SQL"/>
+            <Button Height="30" Background="#FFF0F0F0"  Content="Python"/>
+            <Button Height="30" Background="#FFF0F0F0"  Content="Java"/>
+            <Button Height="30" Background="#FFF0F0F0"  Content="C/C++"/>
+        </StackPanel>
+        <StackPanel Grid.Row="5" Grid.ColumnSpan="5" HorizontalAlignment="Left" Margin="0,257,0,0" Grid.RowSpan="2" Width="1050">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <TextBlock Width="80"  Text="Вконтакте">
+                    <TextBlock.TextDecorations>
+                        <TextDecoration/>
+                    </TextBlock.TextDecorations>
+                </TextBlock>
+                <TextBlock Width="80" Text="Telegram">
+                    <TextBlock.TextDecorations>
+                        <TextDecoration/>
+                    </TextBlock.TextDecorations>
+                </TextBlock>
+                <TextBlock Width="80" Text="Twitter">
+                    <TextBlock.TextDecorations>
+                        <TextDecoration/>
+                    </TextBlock.TextDecorations>
+                </TextBlock>
+                <TextBlock Width="80" Text="Youtube">
+                    <TextBlock.TextDecorations>
+                        <TextDecoration/>
+                    </TextBlock.TextDecorations>
+                </TextBlock>
+                <TextBlock Width="80" Text="Помощь сайту">
+                    <TextBlock.TextDecorations>
+                        <TextDecoration/>
+                    </TextBlock.TextDecorations>
+                </TextBlock>
+            </StackPanel>
+            <TextBlock Text="Контакты для связи: metanit22@mail.ru" TextAlignment="Center"></TextBlock>
+            <TextBlock Text="Copyright metanit.com, 2012-2019. Все права защищены" TextAlignment="Center"></TextBlock>
+        </StackPanel>
+        <StackPanel Orientation="Vertical" Grid.Column="4" Grid.Row="2" Margin="0,26,0,0" Grid.RowSpan="4">
+            <MediaElement Name="firstAdMediaElement" Volume="0" Source="AdVideos/ad.mp4" UnloadedBehavior="Manual" MediaEnded="FirstAdMediaElementMediaEnded" Height="84" Width="141">
+
+            </MediaElement>
+        </StackPanel>
+        <StackPanel Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="4" Grid.RowSpan="2">
+            <TextBlock Text="О сайте" FontSize="16" FontWeight="Bold" TextAlignment="Center"/>
+            <TextBlock Height="214" Margin="10" TextWrapping="Wrap">
+                <TextBlock.Text>
+                    Данный сайт посвящен различным языкам и технологиям программирования,
+                    компьютерам, мобильным платформам и ИТ-технологиям. Здесь будут выкладываться различные руководства и учебные материалы, статьи и примеры.
+                    Приоритетные направления - язык C# и семейство технологий .NET (ASP.NET MVC, WPF, Xamarin, Entity Framework и т.д.), технологии на базе Java ( Java SE, программирование под ОС Андроид и т.д.), Python, работа с базами данных (MS SQL Server, MySQL, MongoDB) а также WEB-технологии, такие как HTML5, AJAX, jQuery, Node.js, ExtJS, Angular, React и др.
+
+Поскольку жизнь не стоит на месте, все материалы по возможности дополняются и обновляются, чтобы соответствовать духу времени и не терять своей актуальности.
+
+По всем вопросам касательно сайта пишите по адресу metanit22@mail.ru.
+
+Спасибо за посещение сайта.
+                </TextBlock.Text>
+            </TextBlock>
+        </StackPanel>
+            
+
+    </Grid>
+</Window>
